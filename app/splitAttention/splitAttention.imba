@@ -139,6 +139,6 @@ tag Snooker
 				<div.target [position:absolute t:{t.position.y} l:{t.position.x} w:{toPx(TARGET_RADIUS)} h:{toPx(TARGET_RADIUS)} bgc:{colorTarget(t)} rd:{toPx(TARGET_RADIUS)}]>
 
 export tag SplitAttentionPage
-	<self[d:flex fld:row]> "hi, this is split attention"
+	<self[d:flex fld:row]>
 		<Snooker autorender=10fps>
 		<Snooker autorender=30fps>
